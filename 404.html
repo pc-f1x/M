@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - הדף לא נמצא | מסגריית שלומוב</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+        .error-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .error-content {
+            max-width: 600px;
+        }
+        .error-code {
+            font-size: 120px;
+            font-weight: 800;
+            color: #d4a574;
+            line-height: 1;
+            margin-bottom: 20px;
+        }
+        .error-title {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        .error-description {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        .error-btn {
+            display: inline-block;
+            padding: 15px 35px;
+            background: #d4a574;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 700;
+            transition: 0.3s;
+        }
+        .error-btn:hover {
+            background: #c49563;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page">
+        <div class="error-content">
+            <div class="error-code">404</div>
+            <h1 class="error-title">אופס! הדף לא נמצא</h1>
+            <p class="error-description">
+                הדף שחיפשת לא קיים או הועבר למיקום אחר.<br>
+                בוא נחזור לדף הבית ונמצא את מה שאתה מחפש.
+            </p>
+            <a href="/" class="error-btn">חזרה לדף הבית</a>
+        </div>
+    </div>
+</body>
+</html>
